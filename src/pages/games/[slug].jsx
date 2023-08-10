@@ -201,13 +201,19 @@ export default function Home({ game }) {
 				{game.title === 'Mahjong Fury' && 
 					<div id="guides">		
 
-								<section id="learnMahjong" className="relative pb-14 sm:py-14  bg-gray-100  md:bg-white">
-										<div className="relative mx-auto max-w-7xl px-4 sm:px-6">
+								<section id="learnMahjong" className="pb-14 sm:py-14  bg-gray-100  md:bg-white px-4 sm:px-6 max-w-7xl relative mx-auto">
+									<div className="flex items-center justify-between ">
+										<div className="">
+											<img className=" block md:hidden mx-auto w-60 mb-3" src="/img/splash_image.png" alt="Joker" />
 											<p className="uppercase tracking-wide font-bold text-sm text-center md:text-left text-cardinal-500 mb-2 text-[#dc5750]">
 												 mahjong guides
 												</p>
 												<h1 className="text-gray-900 text-3xl font-bold text-center md:text-left capitalize mb-2">how to play</h1>
-												<p className="text-sm text-center md:text-left  mb-2 md:max-w-sm">Eager to leran 3P Mahjong but no idea where to start? Start here with this compherensive and easy to understand guide specially made for Mahjong newbies </p>
+												<p className="text-sm text-center md:text-left  mb-2 ">Eager to leran 3P Mahjong but no idea where to start? Start <br className="hidden md:block" /> here with this compherensive and easy to understand guide  <br className="hidden md:block" /> specially made for Mahjong newbies </p>
+										</div>
+										<div className="hidden md:block">
+											<img className="w-80 mx-auto mt-[-140px]" src="/img/splash_image.png" alt="Joker" />
+										</div>
 										</div>
 								</section>
 								<section id="Videos" className="relative bg-gray-100  md:border-y pb-14">
